@@ -21,7 +21,10 @@ dependencies {
             'io.vertx:vertx-core:3.4.2',
             'io.vertx:vertx-web:3.4.2',
             'io.vertx:vertx-web-client:3.4.2',
-            'io.vertx:vertx-jdbc-client:3.4.1'
+            'io.vertx:vertx-jdbc-client:3.4.1',
+            'io.vertx:vertx-mongo-client:3.4.1',
+            'io.vertx:vertx-redis-client:3.4.1',
+            'io.vertx:vertx-mqtt-server:3.4.1',
     )
     testCompile(
             'io.vertx:vertx-unit:3.4.2',
